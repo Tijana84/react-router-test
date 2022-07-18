@@ -10,28 +10,28 @@
     "id": 2,
     "name": "Jana",
     "birth": 1995,
-    "email": "jana.andric@test.com",
+    "email": "jana@test.com",
     "role": "Admin"
   },
   {
     "id": 3,
     "name": "Djordje",
     "birth": 1997,
-    "email": "djordje.markovic@test.com",
+    "email": "djordje@test.com",
     "role": "User"
   },
   {
     "id": 4,
     "name": "Milos",
     "birth": 1991,
-    "email": "milos.djordjevic@test.com",
+    "email": "milos@test.com",
     "role": "User"
   },
   {
     "id": 5,
     "name": "Tijana",
     "birth": 1984,
-    "email": "tijana.savic@test.com",
+    "email": "tijana@test.com",
     "role": "User"
   }
 ]
