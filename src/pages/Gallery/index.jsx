@@ -7,7 +7,6 @@ const Gallery = () => {
     navigate("photo-1");
   };
   
-
   return (
     <div className="container">
       <h1>OUR PHOTO GALLERY</h1>
