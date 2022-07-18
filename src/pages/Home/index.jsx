@@ -1,4 +1,7 @@
+
 import { useNavigate } from "react-router-dom";
+
+
 
 const Home = () => {
   const navigate = useNavigate(); 
@@ -6,8 +9,10 @@ const Home = () => {
     navigate("create-car");
   };
 
+
+
   return (
-    <div>
+    <div className="container">
       <h1>Home</h1>
       <button onClick={handleRoute}>Go to create car</button>
     </div>

@@ -3,17 +3,27 @@ import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
 import CreateCar from "./pages/CreateCar";
+// import NavBar from "./components/NavBar";
+import AboutUs from "./pages/AboutUs";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
+import Photo from "./pages/Photo";
+import  User  from "./components/User";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="login" element={<Login />} />
-        <Route path="create-car" element={<CreateCar />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/create-car" element={<CreateCar />} />
+        <Route path="/photo" element={<Photo />} />
+        <Route path="/user" element={<User/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

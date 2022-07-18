@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Ana",
+    "birth": 1992,
+    "email": "ana.andric@test.com",
+    "role": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Jana",
+    "birth": 1995,
+    "email": "jana.andric@test.com",
+    "role": "Admin"
+  },
+  {
+    "id": 3,
+    "name": "Djordje",
+    "birth": 1997,
+    "email": "djordje.markovic@test.com",
+    "role": "User"
+  },
+  {
+    "id": 4,
+    "name": "Milos",
+    "birth": 1991,
+    "email": "milos.djordjevic@test.com",
+    "role": "User"
+  },
+  {
+    "id": 5,
+    "name": "Tijana",
+    "birth": 1984,
+    "email": "tijana.savic@test.com",
+    "role": "User"
+  }
+]

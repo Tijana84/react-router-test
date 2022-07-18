@@ -1,6 +1,7 @@
 const CreateCar = () => {
+
     return (
-        <div>
+        <div className="container">
             <h1>CreateCar</h1>
         </div>
     )
